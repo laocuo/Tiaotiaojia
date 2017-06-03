@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_close_bg_tap.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_tap.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_close_bg_normal.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_normal.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png",
+        "source": "E:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png"
+    }
+]

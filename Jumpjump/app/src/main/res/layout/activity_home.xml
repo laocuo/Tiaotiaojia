@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true">
+
+   <LinearLayout
+        android:id="@+id/buttongroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+       <TextView
+           style="@style/common_title"
+           android:text="@string/title"
+           android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/start"
+            style="@style/common_btn_style_home"
+            android:layout_marginTop="90dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/start" />
+
+       <Button
+           android:id="@+id/battle"
+           style="@style/common_btn_style_home"
+           android:layout_marginTop="@dimen/big_button_margin"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/battle" />
+
+        <Button
+            android:id="@+id/setting"
+            style="@style/common_btn_style_home"
+            android:layout_marginTop="@dimen/big_button_margin"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/setting" />
+
+       <Button
+           android:id="@+id/chat"
+           style="@style/common_btn_style_home"
+           android:layout_marginTop="@dimen/big_button_margin"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/chat" />
+    </LinearLayout>
+</RelativeLayout>

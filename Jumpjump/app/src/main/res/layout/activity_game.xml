@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:fitsSystemWindows="true" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonbar"
+        android:layout_below="@+id/text" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chess_bg"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_centerInParent="true">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.laocuo.jumpjump.game.GameBgView
+                    android:id="@+id/mainbgview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.laocuo.jumpjump.game.GameView
+                    android:id="@+id/mainview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/selectedChess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="the selected chessman"/>
+            </FrameLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_above="@+id/container">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/away_member_pane"
+                    android:layout_width="@dimen/member_info_pic_width"
+                    android:layout_height="@dimen/member_info_pic_width"
+                    android:src="@drawable/user_pane"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/away_member_avatar"
+                    android:layout_width="@dimen/member_info_pic_width"
+                    android:layout_height="@dimen/member_info_pic_width"
+                    android:padding="6dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/user"/>
+            </RelativeLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/away_member_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/member_info_margin"
+                    android:background="@drawable/panel_bg">
+                    <TextView
+                        android:id="@+id/away_member_alias"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/colorPanelText"
+                        android:textSize="18sp"
+                        android:text="Computer"/>
+                </RelativeLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/time_info_margin"
+                    android:background="@color/colorPanel">
+                    <com.laocuo.jumpjump.base.LedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/time_font_size"
+                        android:textColor="#3300ff00"
+                        android:layout_centerInParent="true"
+                        android:text="@string/default_time"/>
+                    <com.laocuo.jumpjump.base.LedTextView
+                        android:id="@+id/time_leave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/time_font_size"
+                        android:textColor="#13a913"
+                        android:shadowColor="#13a913"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="10"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_below="@+id/container">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/home_member_pane"
+                    android:layout_width="@dimen/member_info_pic_width"
+                    android:layout_height="@dimen/member_info_pic_width"
+                    android:src="@drawable/user_pane"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"/>
+                <ImageView
+                    android:id="@+id/home_member_avatar"
+                    android:layout_width="@dimen/member_info_pic_width"
+                    android:layout_height="@dimen/member_info_pic_width"
+                    android:padding="6dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/user"/>
+            </RelativeLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/home_member_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/member_info_margin"
+                    android:background="@drawable/panel_bg">
+                    <TextView
+                        android:id="@+id/home_member_alias"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/colorPanelText"
+                        android:textSize="18sp"
+                        android:text="Computer"/>
+                </RelativeLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ListView
+                    android:id="@+id/chessRecordList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/colorPanel"
+                    android:scrollbarThumbVertical="@drawable/scroll_bar"/>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttonbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/common_btn_style_game"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/common_btn_style_game"
+                android:layout_marginLeft="@dimen/smalle_button_margin"
+                android:text="@string/setting"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/common_btn_style_game"
+                android:layout_marginLeft="@dimen/smalle_button_margin"
+                android:text="@string/help"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/common_btn_style_game"
+                android:layout_marginLeft="@dimen/smalle_button_margin"
+                android:text="@string/regret" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

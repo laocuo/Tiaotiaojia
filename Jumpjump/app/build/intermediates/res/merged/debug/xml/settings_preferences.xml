@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_user"
+        android:title="@string/user_settings">
+        <com.laocuo.jumpjump.setting.AvatarPreference
+            android:key="pref_key_user_avatar"
+            android:dependency="pref_key_login_status"/>
+        <EditTextPreference
+            android:key="pref_key_user_alias"
+            android:title="@string/alias"
+            android:dependency="pref_key_login_status"/>
+        <SwitchPreference
+            android:key="pref_key_login_status"
+            android:title="@string/login"
+            android:summary="@string/login_switch"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/game_settings">
+        <CheckBoxPreference
+            android:key="pref_key_vs_com"
+            android:summary="@string/vs_computer"
+            android:title="@string/computer"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:entries="@array/pref_key_com_difficulty_choices"
+            android:entryValues="@array/pref_key_com_difficulty_values"
+            android:defaultValue="0"
+            android:key="pref_key_com_difficulty"
+            android:dependency="pref_key_vs_com"
+            android:title="@string/select_com_difficulty"/>
+        <CheckBoxPreference
+            android:key="pref_key_audio_open"
+            android:summary="@string/open_audio"
+            android:title="@string/audio"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/other">
+        <PreferenceScreen
+            android:key="pref_key_about"
+            android:title="@string/about"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_key_com_difficulty_choices">
+        <item>简单</item>
+        <item>困难</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="about">关于</string>
+    <string name="action_register">注册</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="agree_reset">同意重开?</string>
+    <string name="alias">昵称</string>
+    <string name="allowchat">恢复</string>
+    <string name="app_name">挑挑夹</string>
+    <string name="audio">音效</string>
+    <string name="audio_settings">声音设置</string>
+    <string name="avatar">头像</string>
+    <string name="back">返回</string>
+    <string name="battle">对战</string>
+    <string name="chat">聊天</string>
+    <string name="clip">裁剪</string>
+    <string name="computer">电脑</string>
+    <string name="connecting">连接中...</string>
+    <string name="create_room">创建房间</string>
+    <string name="done">完成</string>
+    <string name="edit_your_name">编辑你的名字</string>
+    <string name="empty">空</string>
+    <string name="error_field_required">需要输入这一项</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_invalid_username">用户名太短</string>
+    <string name="exit">退出</string>
+    <string name="exiting">正在退出</string>
+    <string name="game_over">游戏结束!</string>
+    <string name="game_settings">游戏设置</string>
+    <string name="help">帮助</string>
+    <string name="help_content">\u3000\u3000移动棋子至对方两个棋子之间可以挑掉这两个，移动棋子夹住对方棋子则可以吃掉这个。</string>
+    <string name="join_room">加入房间</string>
+    <string name="login">登入</string>
+    <string name="login_switch">切换登出</string>
+    <string name="lose">你输了!</string>
+    <string name="man">人</string>
+    <string name="name">名字</string>
+    <string name="open_audio">音效开启</string>
+    <string name="other">其他</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="playing">游戏中</string>
+    <string name="press_yes_exit">确认退出?</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_username">用户名</string>
+    <string name="regret">悔棋</string>
+    <string name="reset">重开</string>
+    <string name="room_list">房间列表:</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string name="select_com_difficulty">选择难度</string>
+    <string name="setting">设置</string>
+    <string name="start">单机</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stopchat">禁言</string>
+    <string name="title">挑 挑 夹</string>
+    <string name="unset">未设置</string>
+    <string name="user_name">用户名</string>
+    <string name="user_settings">账户设置</string>
+    <string name="version">版本</string>
+    <string name="vs_computer">与电脑对战</string>
+    <string name="waitting">等待中</string>
+    <string name="waitting_confirm">等待确认...</string>
+    <string name="waitting_join">等待加入...</string>
+    <string name="wifi_connect">Wifi对战</string>
+    <string name="win">你赢了!</string>
+    <string name="you">你</string>
+</resources>

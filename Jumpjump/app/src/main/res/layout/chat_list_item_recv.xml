@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp">
+
+    <ImageView
+        android:id="@+id/tv_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/user"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_avatar"
+        android:layout_marginStart="12dp"
+        android:id="@+id/tv_name"
+        android:textSize="14sp"
+        android:textColor="#88494545"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_recv_bg"
+        android:id="@+id/tv_content"
+        android:layout_below="@id/tv_name"
+        android:layout_toEndOf="@+id/tv_avatar"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:padding="6dp"
+        android:textColor="#fb182141"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+        android:background="@android:color/darker_gray"
+        android:padding="2dp"/>
+
+</RelativeLayout>

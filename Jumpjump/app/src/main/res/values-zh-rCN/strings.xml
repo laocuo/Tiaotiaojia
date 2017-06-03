@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">挑挑夹</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_register">注册</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_username">用户名太短</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">需要输入这一项</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title">挑 挑 夹</string>
+    <string name="start">单机</string>
+    <string name="battle">对战</string>
+    <string name="setting">设置</string>
+    <string name="help">帮助</string>
+    <string name="clip">裁剪</string>
+    <string name="wifi_connect">Wifi对战</string>
+    <string name="done">完成</string>
+    <string name="back">返回</string>
+    <string name="help_content">\u3000\u3000移动棋子至对方两个棋子之间可以挑掉这两个，移动棋子夹住对方棋子则可以吃掉这个。</string>
+	<string name="reset">重开</string>
+	<string name="regret">悔棋</string>
+
+    <string name="game_settings">游戏设置</string>
+    <string name="computer">电脑</string>
+    <string name="vs_computer">与电脑对战</string>
+    <string name="select_com_difficulty">选择难度</string>
+    <string name="audio_settings">声音设置</string>
+    <string name="open_audio">音效开启</string>
+    <string name="audio">音效</string>
+    <string name="user_settings">账户设置</string>
+    <string name="login">登入</string>
+    <string name="login_switch">切换登出</string>
+    <string name="edit_your_name">编辑你的名字</string>
+
+    <string name="user_name">用户名</string>
+    <string name="name">名字</string>
+    <string name="avatar">头像</string>
+    <string name="alias">昵称</string>
+    <string name="unset">未设置</string>
+
+    <string name="empty">空</string>
+
+    <string name="waitting_join">等待加入...</string>
+    <string name="connecting">连接中...</string>
+    <string name="exit">退出</string>
+    <string name="exiting">正在退出</string>
+    <string name="room_list">房间列表:</string>
+    <string name="agree_reset">同意重开?</string>
+    <string name="waitting_confirm">等待确认...</string>
+    <string name="playing">游戏中</string>
+    <string name="press_yes_exit">确认退出?</string>
+    <string name="man">人</string>
+    <string name="you">你</string>
+    <string name="win">你赢了!</string>
+    <string name="lose">你输了!</string>
+    <string name="game_over">游戏结束!</string>
+    <string name="waitting">等待中</string>
+
+    <string name="create_room">创建房间</string>
+    <string name="join_room">加入房间</string>
+
+    <string name="version">版本</string>
+    <string name="chat">聊天</string>
+    <string name="about">关于</string>
+    <string name="other">其他</string>
+    <string name="stopchat">禁言</string>
+    <string name="allowchat">恢复</string>
+</resources>

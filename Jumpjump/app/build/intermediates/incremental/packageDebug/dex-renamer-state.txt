@@ -1,0 +1,7 @@
+#Sat Jun 03 16:30:10 CST 2017
+base.0=E\:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_27b975f82b34ac23fa4ab92d579c70453d8b8428
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_af25db6d2d54b4030466fb3acc335c6352d57707\\classes.dex
+base.1=E\:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_af25db6d2d54b4030466fb3acc335c6352d57707
+file.0=E\:\\GitHub\\Repos\\Tiaotiaojia\\Jumpjump\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_27b975f82b34ac23fa4ab92d579c70453d8b8428\\classes.dex

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">挑挑夹</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">username</string>
+    <string name="prompt_password">password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_username">This username is too short</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title">挑 挑 夹</string>
+    <string name="start">Start</string>
+    <string name="battle">Battle</string>
+    <string name="chat">Chat</string>
+    <string name="setting">Setting</string>
+    <string name="help">Help</string>
+    <string name="clip">Clip</string>
+    <string name="wifi_connect">Wifi Battle</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="help_content">\u3000\u3000移动棋子至对方两个棋子之间可以挑掉这两个，移动棋子夹住对方棋子则可以吃掉这个。</string>
+	<string name="reset">Reset</string>
+	<string name="regret">Regret</string>
+
+    <string name="game_settings">Game settings</string>
+    <string name="computer">Computer</string>
+    <string name="vs_computer">VS computer</string>
+    <string name="select_com_difficulty">Select difficulty</string>
+    <string name="audio_settings">Audio settings</string>
+    <string name="open_audio">Open audio</string>
+    <string name="audio">Audio</string>
+    <string name="user_settings">User settings</string>
+    <string name="login">Login</string>
+    <string name="login_switch">Switch to logout</string>
+    <string name="edit_your_name">Edit your name</string>
+
+    <string name="user_name">user name</string>
+    <string name="name">name</string>
+    <string name="avatar">Avatar</string>
+    <string name="alias">Alias</string>
+    <string name="unset">Unset</string>
+
+    <string name="empty">Empty</string>
+
+    <string name="waitting_join">Waitting join...</string>
+    <string name="connecting">Connecting...</string>
+    <string name="exit">Exit</string>
+    <string name="exiting">Exiting</string>
+    <string name="room_list">Room list:</string>
+    <string name="agree_reset">Agree to reset?</string>
+    <string name="waitting_confirm">Waitting confirm...</string>
+    <string name="playing">Playing</string>
+    <string name="press_yes_exit">Press yes to exit..</string>
+    <string name="man">Man</string>
+    <string name="you">You</string>
+    <string name="win">You win!</string>
+    <string name="lose">You lose!</string>
+    <string name="game_over">Game over!</string>
+    <string name="waitting">Waitting</string>
+
+    <string name="create_room">Create room</string>
+    <string name="join_room">Join room</string>
+
+    <string name="version">version</string>
+    <string name="about">About</string>
+    <string name="other">Others</string>
+    <string name="default_time" translatable="false">88</string>
+    <string name="stopchat">stop chat</string>
+    <string name="allowchat">allow chat</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\GitHub\Repos\Tiaotiaojia\Jumpjump\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8073e675f52b555198ee46f2db1c2d469fc5f264">
+        <dex dex="E:\GitHub\Repos\Tiaotiaojia\Jumpjump\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_27b975f82b34ac23fa4ab92d579c70453d8b8428\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitHub\Repos\Tiaotiaojia\Jumpjump\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\GitHub\Repos\Tiaotiaojia\Jumpjump\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_af25db6d2d54b4030466fb3acc335c6352d57707\classes.dex" />
+    </item>
+
+</items>
